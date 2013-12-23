@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compound", "Compound\Compound.csproj", "{AC8F0EF3-70E4-4DCE-AF19-C5127D99507E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundTest", "CompoundTest\CompoundTest.csproj", "{A97D7784-219B-46A7-834C-21464540954E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC8F0EF3-70E4-4DCE-AF19-C5127D99507E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8F0EF3-70E4-4DCE-AF19-C5127D99507E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8F0EF3-70E4-4DCE-AF19-C5127D99507E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8F0EF3-70E4-4DCE-AF19-C5127D99507E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97D7784-219B-46A7-834C-21464540954E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97D7784-219B-46A7-834C-21464540954E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97D7784-219B-46A7-834C-21464540954E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97D7784-219B-46A7-834C-21464540954E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
