@@ -1,6 +1,6 @@
 ﻿namespace Compound
 {
-    public class TextNode : Compound.Node
+    public class TextNode : Node
     {
     }
 }

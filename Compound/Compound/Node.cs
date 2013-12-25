@@ -3,5 +3,6 @@
     public class Node
     {
         public string Value { get; set; }
+        public string Name { get; set; }
     }
 }

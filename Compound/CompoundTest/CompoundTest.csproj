@@ -43,16 +43,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommentNode.cs" />
-    <Compile Include="Node.cs" />
-    <Compile Include="TextNode.cs" />
-    <Compile Include="XmlDeclarationNode.cs" />
-    <Compile Include="XmlExtractor.cs" />
     <Compile Include="XmlExtractorFacts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Compound\Compound.csproj">
+      <Project>{AC8F0EF3-70E4-4DCE-AF19-C5127D99507E}</Project>
+      <Name>Compound</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

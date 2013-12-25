@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="CommentNode.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -48,12 +47,6 @@
     <Compile Include="XmlDeclarationNode.cs" />
     <Compile Include="XmlDocumentReader.cs" />
     <Compile Include="XmlExtractor.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CompoundTest\CompoundTest.csproj">
-      <Project>{A97D7784-219B-46A7-834C-21464540954E}</Project>
-      <Name>CompoundTest</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
