@@ -4,6 +4,6 @@
     {
         public string Value { get; set; }
         public string Name { get; set; }
-        public abstract void Accept(XmlExtractor xmlExtractor);
+        public abstract void Accept(INodeVistor nodeVistor);
     }
 }

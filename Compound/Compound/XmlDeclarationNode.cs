@@ -2,9 +2,9 @@
 {
     public class XmlDeclarationNode : Node
     {
-        public override void Accept(XmlExtractor xmlExtractor)
+        public override void Accept(INodeVistor nodeVistor)
         {
-            xmlExtractor.VisitDeclarationNode(this);
+            nodeVistor.VisitDeclarationNode(this);
         }
     }
 }

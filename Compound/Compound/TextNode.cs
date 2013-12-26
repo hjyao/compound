@@ -2,9 +2,9 @@
 {
     public class TextNode : Node
     {
-        public override void Accept(XmlExtractor xmlExtractor)
+        public override void Accept(INodeVistor nodeVistor)
         {
-            xmlExtractor.VisitTextNode(this);
+            nodeVistor.VisitTextNode(this);
         }
     }
 }

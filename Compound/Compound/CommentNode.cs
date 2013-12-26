@@ -2,9 +2,9 @@
 {
     public class CommentNode : Node
     {
-        public override void Accept(XmlExtractor xmlExtractor)
+        public override void Accept(INodeVistor nodeVistor)
         {
-            xmlExtractor.VisitCommentNode(this);
+            nodeVistor.VisitCommentNode(this);
         }
     }
 }
