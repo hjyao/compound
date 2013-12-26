@@ -2,14 +2,13 @@
 
 namespace Compound
 {
-    public class XmlExtractor
+    public class XmlExtractor : INodeVistor
     {
         private StringBuilder result;
 
         public string Extract(Node xmlNode)
         {
             result = new StringBuilder();
-            var nodeType = xmlNode.GetType().Name;
             xmlNode.Accept(this);
             return result.ToString();
 
