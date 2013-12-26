@@ -10,33 +10,9 @@ namespace Compound
         {
             result = new StringBuilder();
             var nodeType = xmlNode.GetType().Name;
-            if (nodeType == "TextNode")
-            {
-                Accept((TextNode)xmlNode);
-            }else if (nodeType == "CommentNode")
-            {
-                Accept((CommentNode)xmlNode);
-            }else if(nodeType == "XmlDeclarationNode")
-            {
-                Accept((XmlDeclarationNode)xmlNode);
-            }
+            xmlNode.Accept(this);
             return result.ToString();
 
-        }
-
-        public void Accept(XmlDeclarationNode xmlNode)
-        {
-            xmlNode.Accept(this);
-        }
-
-        public void Accept(CommentNode xmlNode)
-        {
-            xmlNode.Accept(this);
-        }
-
-        public void Accept(TextNode xmlNode)
-        {
-            xmlNode.Accept(this);
         }
 
         public void VisitDeclarationNode(XmlDeclarationNode xmlNode)

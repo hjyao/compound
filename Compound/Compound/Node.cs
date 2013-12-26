@@ -1,8 +1,9 @@
 ﻿namespace Compound
 {
-    public class Node
+    public abstract class Node
     {
         public string Value { get; set; }
         public string Name { get; set; }
+        public abstract void Accept(XmlExtractor xmlExtractor);
     }
 }
