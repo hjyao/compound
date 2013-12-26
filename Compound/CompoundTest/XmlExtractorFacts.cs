@@ -25,7 +25,7 @@ namespace CompoundTest
                     var node = xmlDocumentReader.Read(line);
                     result.Append(xmlExtractor.Extract(node));
                 });
-            var expectedOutput = string.Format("this is a xml file\r\nthis is a comment:This is a sample XML document\r\nText:test with a child element\r\n");
+            var expectedOutput = string.Format("Declaration:<?xml version='1.0'?>\r\nthis is a comment:This is a sample XML document\r\nText:test with a child element\r\n");
             Assert.Equal(expectedOutput, result.ToString());
         }
 
